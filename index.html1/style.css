@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+   max-width: 800px;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.0;
+}
+
+h1, h2, h3 {
+  color: #9db9d4;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 9px 20px;
+  background: #657d97;
+  color: rgb(230, 218, 218);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+ margin-right: 650px;
+ margin-bottom: -105px;
+  
+}
+
+/* Cards */
+.card {
+  margin: 15px 0;
+  padding: 15px;
+  background: #ecf0f1;
+  border-left: 5px solid #3498db;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill {
+  padding: 10px 15px;
+  background: #3498db;
+  color: white;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+.skill:hover {
+  background: #2c82b4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #243a50;
+  color: white;
+}
+footer a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
